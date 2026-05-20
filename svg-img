@@ -1,0 +1,400 @@
+<!-- Hero Illustration (SVG) -->
+<div
+  class="flex-1 flex justify-center lg:justify-end reveal"
+  style="animation-delay: 0.25s"
+>
+  <div class="hero-illustration">
+    <svg
+      viewBox="0 0 520 460"
+      xmlns="http://www.w3.org/2000/svg"
+      class="w-full drop-shadow-2xl"
+    >
+      <!-- Background card -->
+      <rect
+        x="30"
+        y="30"
+        width="460"
+        height="400"
+        rx="28"
+        fill="#fff"
+        filter="url(#card-shadow)"
+      />
+      <defs>
+        <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+          <feDropShadow
+            dx="0"
+            dy="8"
+            stdDeviation="24"
+            flood-color="#0f1f3d"
+            flood-opacity="0.12"
+          />
+        </filter>
+        <filter id="sm-shadow">
+          <feDropShadow
+            dx="0"
+            dy="4"
+            stdDeviation="8"
+            flood-color="#0f1f3d"
+            flood-opacity="0.10"
+          />
+        </filter>
+      </defs>
+
+      <!-- Top bar -->
+      <rect x="30" y="30" width="460" height="56" rx="28" fill="#0f1f3d" />
+      <rect x="30" y="58" width="460" height="28" fill="#0f1f3d" />
+      <circle cx="66" cy="58" r="10" fill="#ff5f57" />
+      <circle cx="94" cy="58" r="10" fill="#febc2e" />
+      <circle cx="122" cy="58" r="10" fill="#28c840" />
+      <text
+        x="260"
+        y="63"
+        text-anchor="middle"
+        fill="rgba(255,255,255,0.7)"
+        font-size="11"
+        font-family="DM Sans,sans-serif"
+      >
+        E-Learning Platform
+      </text>
+
+      <!-- Main content area -->
+      <!-- Sidebar -->
+      <rect x="48" y="100" width="100" height="312" rx="14" fill="#f5f3ee" />
+      <rect
+        x="60"
+        y="118"
+        width="76"
+        height="8"
+        rx="4"
+        fill="#0f1f3d"
+        opacity="0.2"
+      />
+      <!-- Nav items -->
+      <rect x="60" y="140" width="76" height="28" rx="8" fill="#0f1f3d" />
+      <rect x="66" y="152" width="40" height="6" rx="3" fill="#f5a623" />
+      <rect
+        x="60"
+        y="178"
+        width="76"
+        height="6"
+        rx="3"
+        fill="#0f1f3d"
+        opacity="0.15"
+      />
+      <rect
+        x="60"
+        y="196"
+        width="64"
+        height="6"
+        rx="3"
+        fill="#0f1f3d"
+        opacity="0.15"
+      />
+      <rect
+        x="60"
+        y="214"
+        width="70"
+        height="6"
+        rx="3"
+        fill="#0f1f3d"
+        opacity="0.15"
+      />
+      <rect
+        x="60"
+        y="232"
+        width="58"
+        height="6"
+        rx="3"
+        fill="#0f1f3d"
+        opacity="0.15"
+      />
+      <!-- Avatar -->
+      <circle cx="98" cy="376" r="20" fill="#0f1f3d" opacity="0.12" />
+      <circle cx="98" cy="370" r="10" fill="#0f1f3d" opacity="0.25" />
+      <rect
+        x="78"
+        y="382"
+        width="40"
+        height="6"
+        rx="3"
+        fill="#0f1f3d"
+        opacity="0.2"
+      />
+
+      <!-- Main panel -->
+      <!-- Course progress card -->
+      <rect
+        x="164"
+        y="106"
+        width="300"
+        height="90"
+        rx="14"
+        fill="#0f1f3d"
+        filter="url(#sm-shadow)"
+      />
+      <text
+        x="184"
+        y="132"
+        font-size="11"
+        fill="rgba(255,255,255,0.6)"
+        font-family="DM Sans,sans-serif"
+      >
+        Current Course
+      </text>
+      <text
+        x="184"
+        y="150"
+        font-size="14"
+        fill="#fff"
+        font-family="Playfair Display,serif"
+        font-weight="700"
+      >
+        UI/UX Design Masterclass
+      </text>
+      <!-- Progress bar -->
+      <rect
+        x="184"
+        y="164"
+        width="240"
+        height="6"
+        rx="3"
+        fill="rgba(255,255,255,0.15)"
+      />
+      <rect x="184" y="164" width="162" height="6" rx="3" fill="#f5a623" />
+      <text
+        x="434"
+        y="171"
+        font-size="10"
+        fill="rgba(255,255,255,0.7)"
+        font-family="DM Sans,sans-serif"
+        text-anchor="end"
+      >
+        67%
+      </text>
+
+      <!-- Stats row -->
+      <rect
+        x="164"
+        y="210"
+        width="88"
+        height="72"
+        rx="14"
+        fill="#fff"
+        filter="url(#sm-shadow)"
+      />
+      <text
+        x="208"
+        y="238"
+        text-anchor="middle"
+        font-size="20"
+        fill="#f5a623"
+        font-family="Playfair Display,serif"
+        font-weight="900"
+      >
+        24
+      </text>
+      <text
+        x="208"
+        y="254"
+        text-anchor="middle"
+        font-size="9"
+        fill="#4a5568"
+        font-family="DM Sans,sans-serif"
+      >
+        Lessons Done
+      </text>
+      <text
+        x="208"
+        y="270"
+        text-anchor="middle"
+        font-size="9"
+        fill="#0f1f3d"
+        font-family="DM Sans,sans-serif"
+        font-weight="600"
+      >
+        of 36
+      </text>
+
+      <rect
+        x="264"
+        y="210"
+        width="88"
+        height="72"
+        rx="14"
+        fill="#fff"
+        filter="url(#sm-shadow)"
+      />
+      <text
+        x="308"
+        y="238"
+        text-anchor="middle"
+        font-size="20"
+        fill="#f5a623"
+        font-family="Playfair Display,serif"
+        font-weight="900"
+      >
+        12h
+      </text>
+      <text
+        x="308"
+        y="254"
+        text-anchor="middle"
+        font-size="9"
+        fill="#4a5568"
+        font-family="DM Sans,sans-serif"
+      >
+        Time Spent
+      </text>
+      <text
+        x="308"
+        y="270"
+        text-anchor="middle"
+        font-size="9"
+        fill="#0f1f3d"
+        font-family="DM Sans,sans-serif"
+        font-weight="600"
+      >
+        this week
+      </text>
+
+      <rect
+        x="364"
+        y="210"
+        width="88"
+        height="72"
+        rx="14"
+        fill="#fff"
+        filter="url(#sm-shadow)"
+      />
+      <text
+        x="408"
+        y="238"
+        text-anchor="middle"
+        font-size="20"
+        fill="#f5a623"
+        font-family="Playfair Display,serif"
+        font-weight="900"
+      >
+        ★4.9
+      </text>
+      <text
+        x="408"
+        y="254"
+        text-anchor="middle"
+        font-size="9"
+        fill="#4a5568"
+        font-family="DM Sans,sans-serif"
+      >
+        Your Rating
+      </text>
+      <text
+        x="408"
+        y="270"
+        text-anchor="middle"
+        font-size="9"
+        fill="#0f1f3d"
+        font-family="DM Sans,sans-serif"
+        font-weight="600"
+      >
+        top 5%
+      </text>
+
+      <!-- Upcoming lesson card -->
+      <rect
+        x="164"
+        y="296"
+        width="196"
+        height="100"
+        rx="14"
+        fill="#f5f3ee"
+        filter="url(#sm-shadow)"
+      />
+      <text
+        x="184"
+        y="320"
+        font-size="10"
+        fill="#4a5568"
+        font-family="DM Sans,sans-serif"
+      >
+        Next Lesson
+      </text>
+      <text
+        x="184"
+        y="340"
+        font-size="13"
+        fill="#0f1f3d"
+        font-family="Playfair Display,serif"
+        font-weight="700"
+      >
+        Prototyping in
+      </text>
+      <text
+        x="184"
+        y="356"
+        font-size="13"
+        fill="#0f1f3d"
+        font-family="Playfair Display,serif"
+        font-weight="700"
+      >
+        Figma
+      </text>
+      <rect x="184" y="366" width="56" height="18" rx="9" fill="#0f1f3d" />
+      <text
+        x="212"
+        y="378"
+        text-anchor="middle"
+        font-size="9"
+        fill="#f5a623"
+        font-family="DM Sans,sans-serif"
+        font-weight="600"
+      >
+        ▶ Play
+      </text>
+
+      <!-- Certificate badge -->
+      <rect
+        x="372"
+        y="296"
+        width="92"
+        height="100"
+        rx="14"
+        fill="#0f1f3d"
+        filter="url(#sm-shadow)"
+      />
+      <text x="418" y="326" text-anchor="middle" font-size="22">🏆</text>
+      <text
+        x="418"
+        y="348"
+        text-anchor="middle"
+        font-size="10"
+        fill="rgba(255,255,255,0.8)"
+        font-family="DM Sans,sans-serif"
+      >
+        Certificate
+      </text>
+      <text
+        x="418"
+        y="362"
+        text-anchor="middle"
+        font-size="10"
+        fill="#f5a623"
+        font-family="DM Sans,sans-serif"
+        font-weight="600"
+      >
+        Ready!
+      </text>
+      <rect x="392" y="372" width="52" height="14" rx="7" fill="#f5a623" />
+      <text
+        x="418"
+        y="382"
+        text-anchor="middle"
+        font-size="8"
+        fill="#0f1f3d"
+        font-family="DM Sans,sans-serif"
+        font-weight="700"
+      >
+        Download
+      </text>
+    </svg>
+  </div>
+</div>
